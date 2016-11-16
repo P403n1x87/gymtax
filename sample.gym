@@ -1,0 +1,29 @@
+SESSION 'Test session'
+
+  enter warmup
+    exercise 'test warmup exercise 01'                                 1m  9s
+    rest                                                               2m
+    announce 'test warmup announce 01'                                    15s
+
+  enter activity
+    announce 'test announcement 01'
+
+  enter circuits rotate
+    station
+      'squats'
+      'power lounges'
+
+    station
+      'station 2 exercise 1'
+      'station 2 exercise 2'
+
+    run 2
+
+    exercise 'burpess'                                                    20s
+
+    run 2
+
+  enter cooldown
+    exercise 'test exercise 02'
+
+start

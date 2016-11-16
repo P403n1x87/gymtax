@@ -1,0 +1,5 @@
+*.pyc
+lib/parsimonious
+test*.*
+circuits*
+*.txt
